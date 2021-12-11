@@ -1,0 +1,134 @@
+
+		.cont{
+			background-color: whitesmoke;
+			font-family: aria;
+		}
+		.right{
+			float: right;
+			margin-top: 25px;
+			margin-right: 0.5em;
+			color: green;
+			text-decoration: none;
+		}
+		.right:hover{
+			cursor: pointer;
+			color: green;
+		}
+		.right:active{
+			cursor: wait;
+			color: red;
+			text-decoration: underline;
+		}
+		input[type=text]:focus{
+			outline: 1px solid green;
+			border-radius: 4px;
+			color: black;
+		}
+		.topic{
+			position: absolute;
+			margin-top: 6%;
+			width: 90%;
+			margin-left: 12%;
+			padding: 5px;
+			text-align: center;
+		}
+		.msgs{
+			position: absolute;
+			margin-top: 9%;
+			width: 90%;
+			margin-left: 12%;
+			margin-right: 5%;
+			padding: 5px;
+			text-align: center;
+		}
+		.row{
+			position: absolute;
+			margin-top: 10%;
+			width: 85%;
+			margin-left: 24%;
+			padding: 5px;
+			text-align: center;
+		}
+		.wrapper{
+			margin-top: 2%;
+			border: 1px solid #ccc;
+		}
+		.fas{
+			margin-top: 17px;
+			margin-left: 76.5%;
+			font-size: 20px;
+		}
+		.btn-sm{
+			text-decoration: none;
+		}
+		.table{
+				font-size: 12px;
+		}
+		#add{
+			float: left;
+			font-family: aria;
+			font-weight: bold;
+			background-color: #00a550;
+		}
+		#rem{
+			float: right;
+			font-family: aria;
+			font-weight: bold;
+		}
+		.error{
+			color:red;
+		}
+		.msg{
+			color: green;
+		}
+		.search{
+			margin-top: 4%;
+		}
+		.search-field{
+			padding: 6px;
+			width: 90%;
+			margin-left: auto;
+			margin-top: 5px;
+			font-family: georgia;
+			border: 1px solid #00a550;
+		}
+		.search-btn{
+			padding: 18px;
+			width: 10%;
+			margin-top: 5px;
+			background-color: white;
+			float: right;
+			font-family: georgia;
+			border: 1px solid #00a550;
+			background-color: #00a550;
+		}
+		.menu{
+			position: fixed;
+			margin-top: 2.1%;
+			padding-top: 2.5%;
+			width: 18%;
+			height: 100%;
+			background-color: lightgrey;
+		}
+		.copyright{
+			margin-top: 55px;
+			text-align: center;
+		}
+		.aside-links{
+			color: #00a550;
+			text-decoration: none;
+			padding-top: 4px;
+			padding-bottom: 4px;
+			padding-right: 30%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		li{
+			list-style: none;
+			padding-top: 3px;
+		}
+		.aside-links:hover{
+			color: darkgreen;
+			text-decoration: none;
+		}
+		
