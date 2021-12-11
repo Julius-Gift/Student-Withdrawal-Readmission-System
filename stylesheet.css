@@ -1,0 +1,231 @@
+html{
+	margin: auto;
+	padding: auto;
+	background-color: whitesmoke;
+}
+.cont{
+	margin: auto;
+	font-family: georgia;
+	padding: auto;
+}
+/*login page*/
+h3{
+	margin-top: 80px;
+}
+.row{
+	width: 50%;
+	text-align: center;
+	margin:auto;
+	padding: 20px;
+}
+.input-login{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 50px;
+	width: 11.9em;
+	margin: auto;
+	border: 1px solid #ccc;
+	border-radius: 35px;
+	font-family: georgia;
+	font-size: 16px;
+}
+.btn-login{
+	padding: 12px;
+	width: 15.2em;
+	border: 1px solid #00a550;
+	border-radius: 35px;
+	font-family: georgia;
+	font-size: 16px;
+	background-color: #00a550;
+	color: white;
+}
+.btn-login:focus{
+	outline: 1px solid green;
+	opacity: 0.8;
+}
+.fas{
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 20px;
+}
+.details{
+	margin-bottom: 14px;
+}
+.forgotpswd a{
+	text-decoration: none;
+	color: darkgreen;
+}
+.clue{
+	width: 20em;
+	text-align: center;
+	font-size: 12px;
+	margin: auto;
+	color: green
+}
+.clue p{
+	line-height: 20px;
+}
+.bottom{
+	position: absolute;
+	margin-top: 10em;
+	padding: 12px;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+}/****/
+
+/*header*/
+.top{
+	position: fixed;
+	margin-top: auto;
+	z-index: 1;
+	width: 100%;
+	background-color: #00a550;
+}
+.nav-right{
+	float: right;
+	margin-left: auto;
+}
+.nav .links{
+	float:left;
+    padding: 0.8rem;
+    color: white;
+    text-decoration: none;
+}
+.nav .links:hover{
+	cursor: pointer;
+	color: white;
+}
+.nav .links:active{
+	color: white;
+	cursor: wait;
+	text-decoration: underline;
+}/****/
+
+/*main sec*/
+.main-cont{
+	position: absolute;
+	margin: 5rem 5rem;
+	height: 100vh;
+}/****/
+
+/*dashboard*/
+.wel{
+	color: green;
+	/**/
+}
+.dash-info{
+	position: absolute;
+	width: 80%;
+	margin-top: 8%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 6px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	text-align: center;
+}/****/
+
+/*with & read pages*/
+.app-name{
+	text-align: center;
+	color: green;
+	font-size: 20px;
+}
+.sec{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+.sections{
+	background-color: #00a550;
+	color: white;
+	font-weight: bold;
+	padding: 0.1rem;
+	border-radius: 3px;
+}
+.input-with{
+    font-family: georgia;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    resize: vertical;
+    margin-right: 80px;
+}
+.input-with:focus{
+    outline: 1px solid #00a550;
+    color: black;
+}
+.area-with{
+    font-family: georgia;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    resize: none;
+    margin-right: 80px;
+    text-align: justify;
+}
+.area-with:focus{
+    outline: 1px solid #00a550;
+    color: black;
+}
+.field{
+	display: inline-block;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	margin-right: 20px;
+	padding-left: 0.5rem;
+}
+.check{
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+.buttons{
+	text-align: center;
+	padding: 10px;
+}
+.success{
+	color:green;
+	font-family:agency fb;
+	font-size:18px;
+}
+.error{
+	color:red;
+	font-family:agency fb;
+	font-size:18px;
+}
+/*readmission*/
+.input-read{
+    font-family: georgia;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    resize: none;
+    margin-right: 80px;
+}
+.input-read:focus{
+    outline: 1px solid #00a550;
+    color: black;
+}
+.area-read{
+    font-family: georgia;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    resize: none;
+    margin-right: 80px;
+    text-align: justify;
+}
+.area-read:focus{
+    outline: 1px solid #00a550;
+    color: black;
+}/****/
+
+.status{
+	color:green;
+}
