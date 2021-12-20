@@ -50,7 +50,7 @@
 			You are logged in as a Student.
 		</div><br><br><br>
 		<div>
-			<a href="../reset/reset.php" class="btn btn-success">Reset Password</a>
+			<a href="../reset/reset.php" class="btn btn-success">Change Password</a>
 			<a href="../login-out/logout.php" class="btn btn-danger">Logout →</a>
 		</div><br>
 	</main>
