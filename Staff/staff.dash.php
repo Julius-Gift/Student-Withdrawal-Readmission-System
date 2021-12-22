@@ -101,7 +101,7 @@
 				You are logged in as a Staff Member
 			</p><br><br><br>
 			<div>
-				<a href="../reset/reset.php" class="btn btn-success">Reset Password</a>
+				<a href="../reset/reset.php" class="btn btn-success">Change Password</a>
 				<a href="../logout.php" class="btn btn-danger">Logout →</a>
 			</div><br><br>
 		</div>
